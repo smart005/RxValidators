@@ -9,7 +9,8 @@
 最小值验证;【@Min(value = 1, message = "提示信息")】
 最大值验证; [@Max(value = 10, message = "提示信息")]
 正则验证;【@Pattern(regexp = "[\\d]+",message = "必须为整数")】
-比较验证;【@CompareId("nametag")-属性1;@Compare(refId = "nametag", symbol = CompareSymbol.eq, message = "两次输入的名称不一致")-属性2】
+比较验证;【@CompareId("nametag")-属性1;
+@Compare(refId = "nametag", symbol = CompareSymbol.eq, message = "两次输入的名称不一致")-属性2】
 
 1.0.1预发版本功能
 
