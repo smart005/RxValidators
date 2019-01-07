@@ -49,7 +49,7 @@ repositories {
 ```
 ###### 对应模块build.gradle引用以下版本
 ```doc
-implementation 'com.geease:ebus:1.0.0'
+implementation 'com.geease:validators:1.0.0'
 ```
 
 ###
