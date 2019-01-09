@@ -2,7 +2,6 @@
 #### 版本功能描述
 ```doc
 1.0.0
-
 可调整属性验证顺序；【@Order(序列)】
 非空验证;	【@NotEmpty(message = "提示信息")】
 长度验证;【@Length(min = 3, max = 10, message = "长度在3~10之间")】
@@ -12,8 +11,10 @@
 比较验证;【@CompareId("nametag")-属性1;
 @Compare(refId = "nametag", symbol = CompareSymbol.eq, message = "两次输入的名称不一致")-属性2】
 
-1.0.1预发版本功能
+1.0.1
+引用库更新
 
+1.1.0预发版本功能
 比较验证时增加业务逻辑验证
 ```
 #### 示例
@@ -49,7 +50,7 @@ repositories {
 ```
 ###### 对应模块build.gradle引用以下版本
 ```doc
-implementation 'com.geease:validators:1.0.0'
+implementation 'com.geease:validators:1.0.1'
 ```
 
 ###
